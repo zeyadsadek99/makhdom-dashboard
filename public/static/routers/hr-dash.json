@@ -1,0 +1,86 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "component": "@/layouts/default/Default.vue",
+            "meta": {
+                "auth": true
+            },
+            "children": [
+                {
+                    "path": "",
+                    "name": "home",
+                    "component": "@/views/Home.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/emails",
+                    "name": "emails",
+                    "component": "@/views/emails/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/notifications",
+                    "name": "notifications",
+                    "component": "@/views/notifications/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/employee-questionnaires",
+                    "name": "employee-questionnaires",
+                    "component": "@/views/employee-questionnaires/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/holiday-settings",
+                    "name": "holiday-settings",
+                    "component": "@/views/holiday-settings/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/messages",
+                    "name": "messages",
+                    "component": "@/views/messages/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                },
+                {
+                    "path": "/employees",
+                    "name": "employees",
+                    "component": "@/views/employees/index.vue",
+                    "meta": {
+                        "auth": true
+                    }
+                }
+            ]
+        },
+        {
+            "path": "/auth",
+            "component": "@/layouts/auth/Auth.vue",
+            "meta": {
+                "guest": true
+            },
+            "children": [
+                {
+                    "path": "login",
+                    "name": "login",
+                    "component": "@/views/auth/Login.vue",
+                    "meta": {
+                        "guest": true
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "sidebar": [
+    {
+      "label": "",
+      "title": "dashboard",
+      "path": "",
+      "icon": "dashboard.svg",
+      "type": "general",
+      "active": "home-page"
+    },
+    {
+      "label": "",
+      "title": "brandSettings",
+      "path": "brand-settings",
+      "icon": "brand-settings.svg",
+      "type": "general",
+      "active": "brand-settings"
+    },
+    {
+      "label": "",
+      "title": "storeSetup",
+      "path": "store-setup",
+      "icon": "storeSetup.svg",
+      "type": "general",
+      "active": "store-setup"
+    },
+    {
+      "label": "",
+      "title": "menuSetup",
+      "path": "menu-setup",
+      "icon": "menu-setup.svg",
+      "type": "general",
+      "active": "menu"
+    },
+    {
+      "label": "",
+      "type": "general",
+      "active": "reports",
+      "title": "reports",
+      "path": "reports",
+      "icon": "reports.svg"
+    },
+    {
+      "label": "",
+      "type": "general",
+      "active": "crm",
+      "title": "crm",
+      "path": "crm",
+      "icon": "CRM.svg"
+    },
+    {
+      "label": "",
+      "title": "settings",
+      "path": "scope-settings",
+      "icon": "settings.svg",
+      "type": "general",
+      "active": "scope-settings"
+    }
+  ]
+}
